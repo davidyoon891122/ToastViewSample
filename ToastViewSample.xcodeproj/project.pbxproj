@@ -10,9 +10,21 @@
 		497F30F12C429A5E00923918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F30F02C429A5E00923918 /* AppDelegate.swift */; };
 		497F30F32C429A5E00923918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F30F22C429A5E00923918 /* SceneDelegate.swift */; };
 		497F30F52C429A5E00923918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F30F42C429A5E00923918 /* ViewController.swift */; };
-		497F30F82C429A5E00923918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497F30F62C429A5E00923918 /* Main.storyboard */; };
 		497F30FA2C429A6000923918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497F30F92C429A6000923918 /* Assets.xcassets */; };
 		497F30FD2C429A6000923918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497F30FB2C429A6000923918 /* LaunchScreen.storyboard */; };
+		497F31062C429B1800923918 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 497F31052C429B1800923918 /* SnapKit */; };
+		497F31082C429C0D00923918 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31072C429C0D00923918 /* ToastView.swift */; };
+		497F310A2C429D4C00923918 /* Extension+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31092C429D4C00923918 /* Extension+UIApplication.swift */; };
+		497F31102C429E6400923918 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F310F2C429E6400923918 /* ViewModel.swift */; };
+		497F31132C429F2800923918 /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 497F31122C429F2800923918 /* CombineCocoa */; };
+		497F31152C429FCC00923918 /* Extension+Cancellables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31142C429FCC00923918 /* Extension+Cancellables.swift */; };
+		497F31172C42A14E00923918 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31162C42A14E00923918 /* ProductService.swift */; };
+		497F31192C42A16400923918 /* ProductsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31182C42A16400923918 /* ProductsEntity.swift */; };
+		497F311B2C42A33B00923918 /* ProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F311A2C42A33B00923918 /* ProductRepository.swift */; };
+		497F31202C42A3C000923918 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F311F2C42A3C000923918 /* ProductsModel.swift */; };
+		497F31232C42A51F00923918 /* Extension+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31222C42A51F00923918 /* Extension+Publisher.swift */; };
+		497F31252C42A5FA00923918 /* ErrorTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31242C42A5FA00923918 /* ErrorTracker.swift */; };
+		497F31272C42A73400923918 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F31262C42A73400923918 /* Extension+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +32,20 @@
 		497F30F02C429A5E00923918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		497F30F22C429A5E00923918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		497F30F42C429A5E00923918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		497F30F72C429A5E00923918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		497F30F92C429A6000923918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		497F30FC2C429A6000923918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497F30FE2C429A6000923918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497F31072C429C0D00923918 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		497F31092C429D4C00923918 /* Extension+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIApplication.swift"; sourceTree = "<group>"; };
+		497F310F2C429E6400923918 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		497F31142C429FCC00923918 /* Extension+Cancellables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Cancellables.swift"; sourceTree = "<group>"; };
+		497F31162C42A14E00923918 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		497F31182C42A16400923918 /* ProductsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsEntity.swift; sourceTree = "<group>"; };
+		497F311A2C42A33B00923918 /* ProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRepository.swift; sourceTree = "<group>"; };
+		497F311F2C42A3C000923918 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		497F31222C42A51F00923918 /* Extension+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Publisher.swift"; sourceTree = "<group>"; };
+		497F31242C42A5FA00923918 /* ErrorTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorTracker.swift; sourceTree = "<group>"; };
+		497F31262C42A73400923918 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497F31132C429F2800923918 /* CombineCocoa in Frameworks */,
+				497F31062C429B1800923918 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,89 @@
 		497F30EF2C429A5E00923918 /* ToastViewSample */ = {
 			isa = PBXGroup;
 			children = (
-				497F30F02C429A5E00923918 /* AppDelegate.swift */,
-				497F30F22C429A5E00923918 /* SceneDelegate.swift */,
-				497F30F42C429A5E00923918 /* ViewController.swift */,
-				497F30F62C429A5E00923918 /* Main.storyboard */,
+				497F310B2C429E3200923918 /* Delegate */,
+				497F310C2C429E3C00923918 /* Scene */,
+				497F310D2C429E4900923918 /* Extensions */,
 				497F30F92C429A6000923918 /* Assets.xcassets */,
 				497F30FB2C429A6000923918 /* LaunchScreen.storyboard */,
 				497F30FE2C429A6000923918 /* Info.plist */,
+				497F311D2C42A39500923918 /* Service */,
+				497F311C2C42A39100923918 /* Entity */,
+				497F311E2C42A3A800923918 /* Repository */,
+				497F31212C42A4CE00923918 /* Model */,
 			);
 			path = ToastViewSample;
+			sourceTree = "<group>";
+		};
+		497F310B2C429E3200923918 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				497F30F02C429A5E00923918 /* AppDelegate.swift */,
+				497F30F22C429A5E00923918 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		497F310C2C429E3C00923918 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				497F310E2C429E5200923918 /* Common */,
+				497F30F42C429A5E00923918 /* ViewController.swift */,
+				497F310F2C429E6400923918 /* ViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		497F310D2C429E4900923918 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				497F31092C429D4C00923918 /* Extension+UIApplication.swift */,
+				497F31142C429FCC00923918 /* Extension+Cancellables.swift */,
+				497F31222C42A51F00923918 /* Extension+Publisher.swift */,
+				497F31242C42A5FA00923918 /* ErrorTracker.swift */,
+				497F31262C42A73400923918 /* Extension+UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		497F310E2C429E5200923918 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				497F31072C429C0D00923918 /* ToastView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		497F311C2C42A39100923918 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				497F31182C42A16400923918 /* ProductsEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		497F311D2C42A39500923918 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				497F31162C42A14E00923918 /* ProductService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		497F311E2C42A3A800923918 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				497F311A2C42A33B00923918 /* ProductRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		497F31212C42A4CE00923918 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				497F311F2C42A3C000923918 /* ProductsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,10 @@
 			dependencies = (
 			);
 			name = ToastViewSample;
+			packageProductDependencies = (
+				497F31052C429B1800923918 /* SnapKit */,
+				497F31122C429F2800923918 /* CombineCocoa */,
+			);
 			productName = ToastViewSample;
 			productReference = 497F30ED2C429A5E00923918 /* ToastViewSample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +213,10 @@
 				Base,
 			);
 			mainGroup = 497F30E42C429A5E00923918;
+			packageReferences = (
+				497F31042C429B1800923918 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				497F31112C429F2800923918 /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = 497F30EE2C429A5E00923918 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +233,6 @@
 			files = (
 				497F30FD2C429A6000923918 /* LaunchScreen.storyboard in Resources */,
 				497F30FA2C429A6000923918 /* Assets.xcassets in Resources */,
-				497F30F82C429A5E00923918 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +243,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497F31192C42A16400923918 /* ProductsEntity.swift in Sources */,
+				497F311B2C42A33B00923918 /* ProductRepository.swift in Sources */,
+				497F31082C429C0D00923918 /* ToastView.swift in Sources */,
+				497F31172C42A14E00923918 /* ProductService.swift in Sources */,
+				497F31152C429FCC00923918 /* Extension+Cancellables.swift in Sources */,
+				497F31252C42A5FA00923918 /* ErrorTracker.swift in Sources */,
 				497F30F52C429A5E00923918 /* ViewController.swift in Sources */,
 				497F30F12C429A5E00923918 /* AppDelegate.swift in Sources */,
+				497F31272C42A73400923918 /* Extension+UIViewController.swift in Sources */,
 				497F30F32C429A5E00923918 /* SceneDelegate.swift in Sources */,
+				497F31102C429E6400923918 /* ViewModel.swift in Sources */,
+				497F310A2C429D4C00923918 /* Extension+UIApplication.swift in Sources */,
+				497F31232C42A51F00923918 /* Extension+Publisher.swift in Sources */,
+				497F31202C42A3C000923918 /* ProductsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		497F30F62C429A5E00923918 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				497F30F72C429A5E00923918 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		497F30FB2C429A6000923918 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +405,10 @@
 				INFOPLIST_FILE = ToastViewSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,9 +434,10 @@
 				INFOPLIST_FILE = ToastViewSample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +473,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		497F31042C429B1800923918 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		497F31112C429F2800923918 /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		497F31052C429B1800923918 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 497F31042C429B1800923918 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		497F31122C429F2800923918 /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 497F31112C429F2800923918 /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 497F30E52C429A5E00923918 /* Project object */;
 }
